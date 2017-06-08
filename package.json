@@ -1,0 +1,38 @@
+{
+  "name": "fps-control",
+  "version": "1.0.0",
+  "description": "A naive FPS throttler implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "browserify test/index.js | tap-closer | smokestack | faucet",
+    "test-debug": "budo test/index.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayamflow/fps-control.git"
+  },
+  "keywords": [
+    "fps",
+    "throttle",
+    "limit",
+    "control",
+    "raf"
+  ],
+  "author": "Florian Morel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayamflow/fps-control/issues"
+  },
+  "homepage": "https://github.com/ayamflow/fps-control#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "faucet": "0.0.1",
+    "smokestack": "^3.4.1",
+    "tap-closer": "^1.0.0",
+    "tape": "^4.6.3"
+  }
+}
