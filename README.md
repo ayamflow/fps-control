@@ -27,7 +27,7 @@ fps-control
 * `new FPSControl(framerate)`
 Returns a new instance sync to a given `framerate` value
 
-* `instance.set(framerate)`
+* `instance.setFPS(framerate)`
 Sets `framerate` as the target framerate. Some examples values are 60 (no throttling), 30 (1/2 throttling).
 
 * `instance.check()`
